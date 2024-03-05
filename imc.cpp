@@ -12,7 +12,7 @@ int main()
         printf("Muito abaixo do peso");
     }
     
-    if (imc <= 17 && imc < 18.5) 
+    if (imc >= 17 && imc < 18.5) 
     {
         printf("Abaixo do peso");
     }
@@ -34,7 +34,7 @@ int main()
     {
         printf("Obesidade severa");
     }
-    else
+    else if (imc >= 40)
     {
         printf("Obesidade mórbida");
     }
